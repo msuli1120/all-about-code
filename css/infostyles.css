@@ -1,0 +1,48 @@
+h1, p {
+  text-align: center;
+}
+
+.nav li {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em darkblue;
+  color: white;
+  font-size: 30px;
+}
+
+.jumbotron {
+  background-color: #80ffff;
+}
+
+.jumbotron p {
+  color: gray;
+}
+
+body {
+  background-color: #4db8ff;
+}
+
+p{
+  font-size: 16px;
+}
+
+.row img {
+  width: 100px;
+  height: 100px;
+  margin-left: 70px;
+}
+
+.row p {
+  display: none;
+}
+
+.col-md-3 {
+  cursor: pointer;
+}
