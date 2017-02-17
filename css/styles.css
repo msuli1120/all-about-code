@@ -18,5 +18,9 @@ h1 {
 }
 
 .jumbotron {
-  background-color: #80ccff;
+  background-color: #80ffff;
+}
+
+.jumbotron p {
+  color: gray;
 }
