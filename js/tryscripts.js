@@ -14,6 +14,12 @@ $(function(){
     var gender = $("input:radio[name=gender]:checked").val();
     var os = parseInt($("#os").val());
 
+    var a = $("#using").val();
+    var b = $("#typing").val();
+    var c = $("#working").val();
+    var d = $("#gaming").val();
+    var e = $("#sit").val();
+
     if (design === 1){
       $("#result").text("Hello " + name + ", your suggested stack is " + css + ".");
     } else if ((design === 2) && (age <= 30) && (gender ==="1") && (os === 2)) {
@@ -44,6 +50,10 @@ $(function(){
       $("#result").text("Hello " + name + ", your suggested stack is " + java + ".");
     } else if (((design === 2) &&　(age > 50) && (gender === 2)) || (os ===4)) {
       $("#result").text("Hello " + name + ", your suggested stack is " + php + ".");
+    };
+
+    if((a+b+c+d+e) === ("A"+"A"+"A"+"A"+"A")) {
+      $(".row #surveyResult p").show();
     };
   });
 });
